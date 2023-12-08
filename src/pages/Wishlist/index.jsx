@@ -45,7 +45,7 @@ const WishlistPage = () => {
                   <div className="flex flex-col gap-[15px] items-start justify-start w-auto">
                     <Text
                       className="leading-[35.00px] max-w-[294px] md:max-w-full text-black-900 text-xl tracking-[-0.50px]"
-                      size="txtRalewayRomanBold20"
+                      size="txtRalewayRomanBold20Black900"
                     >
                       Complete set of sofa, pillows and bed sheets
                     </Text>
@@ -59,7 +59,7 @@ const WishlistPage = () => {
                 </div>
                 <Text
                   className="text-black-900 text-lg tracking-[-0.50px] w-auto"
-                  size="txtRubikSemiBold18"
+                  size="txtRubikSemiBold18Black900"
                 >
                   $ 75.00
                 </Text>
@@ -90,7 +90,7 @@ const WishlistPage = () => {
                   <div className="flex flex-col gap-3 items-start justify-start w-auto">
                     <Text
                       className="text-black-900 text-xl tracking-[-0.50px] w-auto"
-                      size="txtRalewayRomanBold20"
+                      size="txtRalewayRomanBold20Black900"
                     >
                       Teak wood chair
                     </Text>
@@ -104,7 +104,7 @@ const WishlistPage = () => {
                 </div>
                 <Text
                   className="text-black-900 text-lg tracking-[-0.50px] w-auto"
-                  size="txtRubikSemiBold18"
+                  size="txtRubikSemiBold18Black900"
                 >
                   $ 24.00
                 </Text>

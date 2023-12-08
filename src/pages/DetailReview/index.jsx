@@ -89,7 +89,7 @@ const DetailReviewPage = () => {
                   <div className="flex flex-col font-rubik gap-5 items-start justify-start w-full">
                     <Text
                       className="text-black-900 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikSemiBold18"
+                      size="txtRubikSemiBold18Black900"
                     >
                       <span className="text-gray-500 font-rubik text-left font-normal">
                         Stok :
@@ -101,7 +101,7 @@ const DetailReviewPage = () => {
                     </Text>
                     <Text
                       className="text-black-900 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikSemiBold18"
+                      size="txtRubikSemiBold18Black900"
                     >
                       <span className="text-gray-500 font-rubik text-left font-normal">
                         SKU :
@@ -116,7 +116,7 @@ const DetailReviewPage = () => {
                     </Text>
                     <Text
                       className="text-black-900 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikSemiBold18"
+                      size="txtRubikSemiBold18Black900"
                     >
                       <span className="text-gray-500 font-rubik text-left font-normal">
                         Categories :
@@ -128,7 +128,7 @@ const DetailReviewPage = () => {
                     </Text>
                     <Text
                       className="text-black-900 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikSemiBold18"
+                      size="txtRubikSemiBold18Black900"
                     >
                       <span className="text-gray-500 font-rubik text-left font-normal">
                         Tags :
@@ -160,7 +160,7 @@ const DetailReviewPage = () => {
                       />
                       <Text
                         className="text-black-900 text-lg tracking-[-0.50px]"
-                        size="txtRubikRegular18"
+                        size="txtRubikRegular18Black900"
                       >
                         1
                       </Text>
@@ -173,7 +173,7 @@ const DetailReviewPage = () => {
                     <Text
                       className="common-pointer bg-black-900 flex-1 justify-center sm:pl-5 pl-[25px] pr-[13px] py-[11px] text-lg text-white-A700 tracking-[-0.50px] w-auto"
                       size="txtRubikRegular18WhiteA700"
-                      onClick={() => navigate("/")}
+                      onClick={() => navigate("")}
                     >
                       Add to Cart
                     </Text>

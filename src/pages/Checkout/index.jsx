@@ -43,7 +43,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-1 flex-col gap-3 items-start justify-start w-full">
                         <Text
                           className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                          size="txtRalewayRomanRegular20Black900"
+                          size="txtRalewayRomanRegular20"
                         >
                           First Name
                         </Text>
@@ -58,7 +58,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-1 flex-col gap-3 items-start justify-start w-full">
                         <Text
                           className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                          size="txtRalewayRomanRegular20Black900"
+                          size="txtRalewayRomanRegular20"
                         >
                           Last Name
                         </Text>
@@ -75,7 +75,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-1 flex-col gap-3 items-start justify-start w-full">
                         <Text
                           className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                          size="txtRalewayRomanRegular20Black900"
+                          size="txtRalewayRomanRegular20"
                         >
                           Phone
                         </Text>
@@ -90,7 +90,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-1 flex-col gap-3 items-start justify-start w-full">
                         <Text
                           className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                          size="txtRalewayRomanRegular20Black900"
+                          size="txtRalewayRomanRegular20"
                         >
                           Email
                         </Text>
@@ -151,7 +151,7 @@ const CheckoutPage = () => {
                   <div className="flex flex-col gap-3 items-start justify-start w-full">
                     <Text
                       className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                      size="txtRalewayRomanRegular20Black900"
+                      size="txtRalewayRomanRegular20"
                     >
                       Country / Region{" "}
                     </Text>
@@ -175,7 +175,7 @@ const CheckoutPage = () => {
                   <div className="flex flex-col gap-3 items-start justify-start w-full">
                     <Text
                       className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                      size="txtRalewayRomanRegular20Black900"
+                      size="txtRalewayRomanRegular20"
                     >
                       Street address{" "}
                     </Text>
@@ -225,7 +225,7 @@ const CheckoutPage = () => {
                 <div className="flex flex-col gap-[30px] items-start justify-start w-full">
                   <Text
                     className="text-black-900 text-xl tracking-[-0.50px] w-full"
-                    size="txtRalewayRomanBold20"
+                    size="txtRalewayRomanBold20Black900"
                   >
                     Your Order
                   </Text>
@@ -234,7 +234,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <Text
                           className="text-gray-500 text-xl tracking-[-0.50px] w-auto"
-                          size="txtRalewayRomanRegular20"
+                          size="txtRalewayRomanRegular20Gray500"
                         >
                           Complete set of sofa... 1x
                         </Text>
@@ -248,7 +248,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <Text
                           className="text-gray-500 text-xl tracking-[-0.50px] w-auto"
-                          size="txtRalewayRomanRegular20"
+                          size="txtRalewayRomanRegular20Gray500"
                         >
                           Teak wood chair 1x
                         </Text>
@@ -265,7 +265,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <Text
                           className="text-gray-500 text-xl tracking-[-0.50px] w-auto"
-                          size="txtRalewayRomanRegular20"
+                          size="txtRalewayRomanRegular20Gray500"
                         >
                           Subtotal
                         </Text>
@@ -279,7 +279,7 @@ const CheckoutPage = () => {
                       <div className="flex flex-row items-center justify-between w-full">
                         <Text
                           className="text-gray-500 text-xl tracking-[-0.50px] w-auto"
-                          size="txtRalewayRomanRegular20"
+                          size="txtRalewayRomanRegular20Gray500"
                         >
                           Discount (30%)
                         </Text>
@@ -295,7 +295,7 @@ const CheckoutPage = () => {
                     <div className="flex flex-row items-center justify-between w-full">
                       <Text
                         className="text-gray-500 text-xl tracking-[-0.50px] w-auto"
-                        size="txtRalewayRomanRegular20"
+                        size="txtRalewayRomanRegular20Gray500"
                       >
                         Total
                       </Text>

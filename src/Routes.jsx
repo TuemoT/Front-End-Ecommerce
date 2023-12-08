@@ -15,13 +15,12 @@ const ShopDetailDescription = React.lazy(
 );
 const Shop = React.lazy(() => import("pages/Shop"));
 const Homepage = React.lazy(() => import("pages/Homepage"));
-const Cart = React.lazy(() => import("pages/Cart"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
-          <Route path="/" element={<Cart />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/shop" element={<Shop />} />
@@ -37,7 +36,6 @@ const ProjectRoutes = () => {
           <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/aboutus" element={<Aboutus />} />
-          <Route path="/dhiwise-dashboard" element={<Home />} />
         </Routes>
       </Router>
     </React.Suspense>

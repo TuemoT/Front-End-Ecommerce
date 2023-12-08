@@ -47,7 +47,7 @@ const ShopPage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="text-lg text-yellow-100 tracking-[-0.50px] w-auto"
-                      size="txtRubikSemiBold18Yellow100"
+                      size="txtRubikSemiBold18"
                     >
                       Best Room Decor Items
                     </Text>
@@ -216,7 +216,7 @@ const ShopPage = () => {
                 <div className="absolute bottom-[10%] flex flex-col gap-[15px] inset-x-[0] items-center justify-start mx-auto w-auto">
                   <Text
                     className="leading-[35.00px] max-w-[265px] md:max-w-full text-center text-white-A700 text-xl"
-                    size="txtRalewayRomanBold20WhiteA700"
+                    size="txtRalewayRomanBold20"
                   >
                     Make a purchase now and get 50% discount
                   </Text>

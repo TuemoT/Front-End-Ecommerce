@@ -145,7 +145,7 @@ const HomepagePage = () => {
                   <div className="flex flex-col gap-[31px] items-start justify-start w-full">
                     <Text
                       className="text-gray-53 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikRegular18Gray53"
+                      size="txtRubikRegular18"
                     >
                       Living Room
                     </Text>
@@ -173,7 +173,7 @@ const HomepagePage = () => {
                   <div className="flex flex-col gap-[31px] items-start justify-start w-full">
                     <Text
                       className="text-gray-53 text-lg tracking-[-0.50px] w-full"
-                      size="txtRubikRegular18Gray53"
+                      size="txtRubikRegular18"
                     >
                       Living Room
                     </Text>
@@ -369,7 +369,10 @@ const HomepagePage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-raleway items-center justify-center md:px-10 sm:px-5 px-[75px] w-full">
+        <div
+          className="common-pointer flex flex-col font-raleway items-center justify-center md:px-10 sm:px-5 px-[75px] w-full"
+          onClick={() => navigate("/homepage")}
+        >
           <div className="flex md:flex-col flex-row md:gap-10 gap-[85px] items-center justify-start max-w-[1290px] mx-auto w-full">
             <div className="flex flex-1 flex-col gap-[50px] h-full items-start justify-start w-full">
               <Text

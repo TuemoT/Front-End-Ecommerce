@@ -19,9 +19,10 @@ const CartNavbar = (props) => {
         <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
           <div className="header-row ">
             <Img
-              className="h-[30px] w-[90px]"
+              className="common-pointer h-[30px] w-[90px]"
               src="images/img_car.svg"
               alt="car"
+              onClick={() => navigate("/homepage")}
             />
             <div className="mobile-menu">
               <div></div>

@@ -66,7 +66,7 @@ const BlogDetailPage = () => {
                       />
                       <Text
                         className="text-black-900 text-lg tracking-[-0.50px] w-auto"
-                        size="txtRubikRegular18"
+                        size="txtRubikRegular18Black900"
                       >
                         By Admin
                       </Text>
@@ -80,7 +80,7 @@ const BlogDetailPage = () => {
                       />
                       <Text
                         className="text-black-900 text-lg tracking-[-0.50px] w-auto"
-                        size="txtRubikRegular18"
+                        size="txtRubikRegular18Black900"
                       >
                         December 10, 2022
                       </Text>

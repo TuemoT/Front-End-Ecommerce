@@ -38,7 +38,7 @@ const ContactusPage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="text-lg text-yellow-100 tracking-[-0.50px] w-auto"
-                      size="txtRubikSemiBold18Yellow100"
+                      size="txtRubikSemiBold18"
                     >
                       Best Room Decor Items
                     </Text>
