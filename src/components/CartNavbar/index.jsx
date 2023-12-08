@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import { Img, SelectBox, Text } from "components";
 
 const homeOptionsList = [
@@ -9,6 +11,8 @@ const homeOptionsList = [
 ];
 
 const CartNavbar = (props) => {
+  const navigate = useNavigate();
+
   return (
     <>
       <header className={props.className}>
@@ -27,7 +31,7 @@ const CartNavbar = (props) => {
           </div>
           <div className="flex sm:flex-1 flex-row gap-9 sm:hidden items-center justify-between w-[498px] sm:w-full">
             <SelectBox
-              className="font-rubik leading-[normal] text-black-900 text-left text-lg tracking-[-0.50px] w-[17%] sm:w-full"
+              className="common-pointer font-rubik leading-[normal] text-black-900 text-left text-lg tracking-[-0.50px] w-[17%] sm:w-full"
               placeholderClassName="text-black-900"
               indicator={
                 <Img
@@ -41,34 +45,40 @@ const CartNavbar = (props) => {
               options={homeOptionsList}
               isSearchable={false}
               placeholder="Home"
+              onClick={() => navigate("/homepage")}
             />
             <Text
-              className="text-black-900 text-lg tracking-[-0.50px] w-auto"
+              className="common-pointer text-black-900 text-lg tracking-[-0.50px] w-auto"
               size="txtRubikRomanRegular18"
+              onClick={() => navigate("/shop")}
             >
               Shop
             </Text>
             <Text
-              className="text-black-900 text-lg tracking-[-0.50px] w-auto"
+              className="common-pointer text-black-900 text-lg tracking-[-0.50px] w-auto"
               size="txtRubikRomanRegular18"
+              onClick={() => navigate("/blog")}
             >
               Blog
             </Text>
             <Text
-              className="text-black-900 text-lg tracking-[-0.50px] w-auto"
+              className="common-pointer text-black-900 text-lg tracking-[-0.50px] w-auto"
               size="txtRubikRomanRegular18"
+              onClick={() => navigate("/aboutus")}
             >
               About
             </Text>
             <Text
-              className="text-black-900 text-lg tracking-[-0.50px] w-auto"
+              className="common-pointer text-black-900 text-lg tracking-[-0.50px] w-auto"
               size="txtRubikRomanRegular18"
+              onClick={() => navigate("/contactus")}
             >
               Contact
             </Text>
             <Text
-              className="text-black-900 text-lg tracking-[-0.50px] w-auto"
+              className="common-pointer text-black-900 text-lg tracking-[-0.50px] w-auto"
               size="txtRubikRomanRegular18"
+              onClick={() => navigate("/team")}
             >
               Team
             </Text>

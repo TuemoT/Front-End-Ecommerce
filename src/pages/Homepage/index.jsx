@@ -51,7 +51,10 @@ const HomepagePage = () => {
       <div className="bg-gray-50 flex flex-col font-rubik sm:gap-10 md:gap-10 gap-[100px] items-center justify-start mx-auto w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-start justify-start w-full">
           <CartNavbar className="bg-white-A700 flex items-center justify-center md:px-5 px-[75px] py-[35px] w-full" />
-          <div className="bg-orange-50 flex flex-col items-start justify-start md:px-10 sm:px-5 px-[75px] py-20 w-full">
+          <div
+            className="common-pointer bg-orange-50 flex flex-col items-start justify-start md:px-10 sm:px-5 px-[75px] py-20 w-full"
+            onClick={() => navigate(-1)}
+          >
             <div className="flex md:flex-col flex-row md:gap-10 gap-[60px] items-center justify-start max-w-[1290px] mx-auto w-full">
               <div className="flex flex-1 flex-col gap-[30px] items-start justify-start w-full">
                 <div className="flex flex-col gap-[26px] items-start justify-start w-full">
@@ -77,10 +80,7 @@ const HomepagePage = () => {
                     </span>
                   </Text>
                 </div>
-                <Button
-                  className="common-pointer bg-bluegray-900 border-2 border-bluegray-900 border-solid cursor-pointer font-medium leading-[normal] min-w-[218px] py-[18px] text-center text-xl text-yellow-100 tracking-[-0.50px]"
-                  onClick={() => navigate("/shop")}
-                >
+                <Button className="bg-bluegray-900 border-2 border-bluegray-900 border-solid cursor-pointer font-medium leading-[normal] min-w-[218px] py-[18px] text-center text-xl text-yellow-100 tracking-[-0.50px]">
                   Shop Now
                 </Button>
               </div>
@@ -156,10 +156,7 @@ const HomepagePage = () => {
                       The best foam padded chair
                     </Text>
                   </div>
-                  <Button
-                    className="common-pointer border-2 border-gray-50 border-solid cursor-pointer font-medium leading-[normal] min-w-[155px] py-[15px] text-base text-center text-gray-50 tracking-[-0.50px]"
-                    onClick={() => navigate("/shop")}
-                  >
+                  <Button className="border-2 border-gray-50 border-solid cursor-pointer font-medium leading-[normal] min-w-[155px] py-[15px] text-base text-center text-gray-50 tracking-[-0.50px]">
                     Shop Now
                   </Button>
                 </div>
@@ -187,10 +184,7 @@ const HomepagePage = () => {
                       Latest model chandelier
                     </Text>
                   </div>
-                  <Button
-                    className="common-pointer border-2 border-gray-50 border-solid cursor-pointer font-medium leading-[normal] min-w-[155px] py-[15px] text-base text-center text-gray-50 tracking-[-0.50px]"
-                    onClick={() => navigate("/shop")}
-                  >
+                  <Button className="border-2 border-gray-50 border-solid cursor-pointer font-medium leading-[normal] min-w-[155px] py-[15px] text-base text-center text-gray-50 tracking-[-0.50px]">
                     Shop Now
                   </Button>
                 </div>
@@ -341,10 +335,7 @@ const HomepagePage = () => {
                   Arrange your home in such a way with our modern interiors
                 </Text>
               </div>
-              <Button
-                className="common-pointer border-2 border-bluegray-900 border-solid cursor-pointer font-medium leading-[normal] min-w-[218px] py-[18px] text-bluegray-900 text-center text-xl tracking-[-0.50px]"
-                onClick={() => navigate("/shopdetaildescription")}
-              >
+              <Button className="border-2 border-bluegray-900 border-solid cursor-pointer font-medium leading-[normal] min-w-[218px] py-[18px] text-bluegray-900 text-center text-xl tracking-[-0.50px]">
                 Shop Now
               </Button>
             </div>

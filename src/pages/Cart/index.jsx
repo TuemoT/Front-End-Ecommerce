@@ -1,7 +1,5 @@
 import React from "react";
 
-import { useNavigate } from "react-router-dom";
-
 import { Button, Img, Input, Line, List, SelectBox, Text } from "components";
 import CartColumnframe48095972 from "components/CartColumnframe48095972";
 import CartNavbar from "components/CartNavbar";
@@ -14,8 +12,6 @@ const homeOptionsList = [
 ];
 
 const CartPage = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="bg-gray-50 flex flex-col font-rubik sm:gap-10 md:gap-10 gap-[100px] items-start justify-start mx-auto w-auto sm:w-full md:w-full">
@@ -193,10 +189,7 @@ const CartPage = () => {
                         $ 99.00
                       </Text>
                     </div>
-                    <Button
-                      className="common-pointer bg-bluegray-900 cursor-pointer font-rubik font-semibold leading-[normal] py-3.5 text-center text-lg text-yellow-100 tracking-[-0.50px] w-full"
-                      onClick={() => navigate("/checkout")}
-                    >
+                    <Button className="bg-bluegray-900 cursor-pointer font-rubik font-semibold leading-[normal] py-3.5 text-center text-lg text-yellow-100 tracking-[-0.50px] w-full">
                       Checkout Now
                     </Button>
                   </div>
